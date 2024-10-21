@@ -17,6 +17,6 @@ async function bootstrap() {
   );
   app.useGlobalFilters(new RpcCustomExceptionFilter());
   await app.listen(envs.port);
-  logger.log(`running aNDRES : ${envs.port}`);
+  logger.log(`x Andres : ${envs.port}`);
 }
 bootstrap();
